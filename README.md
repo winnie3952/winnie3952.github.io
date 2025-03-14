@@ -1,66 +1,92 @@
-/* 全域樣式 */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+課程名稱
+ 降落傘
+https://www.canva.com/design/DAGeH9KN8nk/fUdNq3C_CSFflgGYE_a3vQ/edit?utm_content=DAGeH9KN8nk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+課程內容/流程 
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+時間
+課程內容
+地點
+備註
+4分鐘
+情節引導
+崙暉樓
+1F
 
-h1 {
-  margin: 0;
-}
 
-main {
-  padding: 20px;
-}
+2分鐘
+自我介紹
+課程摘要
+崙暉樓
+1F
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
 
-#post-list {
-  display: flex;
-  flex-direction: column;
-}
+4分鐘
+原理講解+成果效果
 
-.post {
-  background-color: white;
-  padding: 20px;
-  margin: 10px 0;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
-.post h3 {
-  margin-top: 0;
-}
+崙暉樓
+1F
 
-.read-more {
-  color: #007BFF;
-  text-decoration: none;
-}
 
-.read-more:hover {
-  text-decoration: underline;
-}
+20min
+引導製作+試飛
+崙暉樓
+1F＋2F
+需隊輔協助小隊製作
 
-#post-content {
-  padding: 20px;
-  background-color: white;
-  margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+每個步驟小隊小隊行動結束幫我舉手回報
+5min
+比賽規則介紹
+崙暉樓1F
+如果小隊員不明白規則，請隊輔幫忙協助
+3min
+轉移場地
+
+
+需隊輔引導
+20min
+說明比賽規則:
+比賽1:
+每隊派出代表，輪流投擲降落傘，降落傘在空中最久的獲勝
+備註:
+1.小組輪流投擲
+2.每組丟2次
+
+比賽2:
+掛物件或砝碼，並在空中停留4秒鐘，能掛最重的小隊獲勝
+
+
+大會議室旁
+需要有修補區
+
+小隊輔記得要帶剪刀和膠帶
+
+隊輔確保小孩不亂跑
+2min
+轉移場地
+
+
+需隊輔引導
+4分鐘
+收尾
+崙暉樓
+1F
+隊輔幫忙管理秩序
+
+
+
+
+課程所需器材 
+細膠帶*8
+粗膠帶*8
+剪刀*16
+水球*9
+大塑膠帶*8
+釣魚線/麻線＊9
+砝碼*all
+課程所需時間
+60分鐘
+其他（如課程場地等） 
+崙輝樓
+
+
