@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>虎尾高中</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+
+    header {
+      background-color: #eee;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 10px 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #004466;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav, article, aside {
+      padding: 1rem;
+    }
+
+    nav {
+      flex: 1 1 20%;
+      background: lightblue;
+    }
+
+    article {
+      flex: 1 1 60%;
+      background: lightyellow;
+    }
+
+    aside {
+      flex: 1 1 20%;
+      background: lightpink;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      nav, article, aside {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- 頁首 -->
+  <header>
+    <h1>虎尾高中</h1>
+    <p>優質教育，成就未來！</p>
+  </header>
+
+  <!-- 主體區塊 -->
+  <div class="container">
+    <!-- 導覽列 -->
+    <nav>
+      <ul>
+        <li><a href="school_history.html">學校沿革</a></li>
+        <li><a href="campus_tour.html">校園導覽</a></li>
+        <li><a href="student_works.html">學生作品</a></li>
+        <li><a href="features.html">特色課程</a></li>
+      </ul>
+    </nav>
+
+    <!-- 主要內容 -->
+    <article>
+      <h2>學校介紹</h2>
+      <p>虎尾高中位於雲林縣虎尾鎮，環境清幽，設備完善，是當地具有代表性的高中之一。學校秉持著「全人教育」的理念，注重學生德、智、體、群、美五育均衡發展，致力於培養具有創造力與社會責任感的現代青年。</p>
+      <p>校園中不僅設有現代化的教學大樓、圖書館與科學實驗室，還有豐富多元的社團活動與自主學習資源。學生可以在學術、藝術、體育等領域發展潛能，實現個人夢想。</p>
+      <p>無論是追求升學的同學，還是探索興趣的學生，虎尾高中都能提供最適切的學習環境與支持，是通往未來的重要起點。</p>
+    </article>
+
+    <!-- 側邊欄 -->
+    <aside>
+      <section>
+        <h2>關於虎尾高中</h2>
+        <p>虎尾高中是一所擁有悠久歷史與卓越教學品質的學校，重視學生的多元發展與自主學習。學校團隊專業且熱情，致力於打造適性發展的教育環境，幫助每位學生發揮潛力、實現理想。</p>
+        <p>本校學生表現優異，不僅在各類競賽中屢獲佳績，也在升學與生涯發展上展現實力。歡迎對教育充滿熱情的你，一同加入虎尾高中這個大家庭！</p>
+      </section>
+    </aside>
+  </div>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>&copy; 2025 虎尾高中 | <a href="mailto:info@huweihigh.edu.tw">聯絡我們</a></p>
+  </footer>
+</body>
+</html>
