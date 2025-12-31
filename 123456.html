@@ -1,66 +1,159 @@
-/* 全域樣式 */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>雲林的污染問題｜Yunlin Pollution</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", Arial, sans-serif;
+      line-height: 1.7;
+      background-color: #f5f7f6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    section h2 {
+      font-size: 2rem;
+      border-left: 6px solid #2e8b57;
+      padding-left: 12px;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #2e8b57;
+    }
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 80px;
+    }
+    footer p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+    }
+    .highlight {
+      background: #e8f5ee;
+      padding: 15px;
+      border-left: 5px solid #2e8b57;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+  <header>
+    <h1>雲林的污染問題</h1>
+    <p>從農業廢水到空氣品質，認識雲林正在面對的環境挑戰</p>
+  </header>
 
-h1 {
-  margin: 0;
-}
+  <section>
+    <h2>為什麼要關注雲林？</h2>
+    <div class="card">
+      <p>
+        雲林縣以農業聞名，是臺灣重要的糧食產地之一。然而，在農業、工業與人口活動交織之下，
+        也衍生出水污染、空氣污染與廢棄物處理等環境問題，對居民健康與生態造成長期影響。
+      </p>
+    </div>
+  </section>
 
-main {
-  padding: 20px;
-}
+  <section>
+    <h2>主要污染類型</h2>
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
+    <div class="card">
+      <h3>🌊 水污染</h3>
+      <p>
+        部分河川與灌溉水圳受到畜牧廢水、生活污水與工業排放影響，
+        造成水體優養化、惡臭及生態破壞。
+      </p>
+      <div class="highlight">
+        常見問題：氨氮過高、溶氧量不足、魚類大量死亡
+      </div>
+    </div>
 
-#post-list {
-  display: flex;
-  flex-direction: column;
-}
+    <div class="card">
+      <h3>🌫️ 空氣污染</h3>
+      <p>
+        雲林位於西部平原，下風處易累積污染物，加上工業排放、交通與季節性揚塵，
+        PM2.5 濃度在部分時期偏高。
+      </p>
+      <div class="highlight">
+        影響：呼吸道疾病、過敏、心血管風險上升
+      </div>
+    </div>
 
-.post {
-  background-color: white;
-  padding: 20px;
-  margin: 10px 0;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+    <div class="card">
+      <h3>🗑️ 廢棄物與農業污染</h3>
+      <p>
+        農業塑膠、農藥與肥料若未妥善管理，容易進入土壤與水體，
+        形成長期累積的環境負擔。
+      </p>
+    </div>
+  </section>
 
-.post h3 {
-  margin-top: 0;
-}
+  <section>
+    <h2>對環境與居民的影響</h2>
+    <div class="card">
+      <ul>
+        <li>飲用水與灌溉水品質下降</li>
+        <li>生態系統退化，生物多樣性降低</li>
+        <li>居民健康風險增加</li>
+        <li>農業與漁業生產受到衝擊</li>
+      </ul>
+    </div>
+  </section>
 
-.read-more {
-  color: #007BFF;
-  text-decoration: none;
-}
+  <section>
+    <h2>可能的改善方向</h2>
+    <div class="card">
+      <p>
+        解決污染問題需要政府、產業與民眾共同努力，包括：
+      </p>
+      <ul>
+        <li>加強廢水處理與排放監測</li>
+        <li>推動友善農業與減少化學投入</li>
+        <li>提升空氣污染預警與管理機制</li>
+        <li>落實環境教育，提升公眾意識</li>
+      </ul>
+    </div>
+  </section>
 
-.read-more:hover {
-  text-decoration: underline;
-}
+  <footer>
+    <p>雲林環境議題介紹網頁</p>
+    <p>製作者：學生專題／環境教育用途</p>
+  </footer>
 
-#post-content {
-  padding: 20px;
-  background-color: white;
-  margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+</body>
+</html>
+
